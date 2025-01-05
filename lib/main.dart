@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:restapicall/home_page.dart';
+import 'package:restapicall/method1_api_call.dart';
+import 'package:restapicall/method2_api_call_with_future_builder.dart';
+
 
 
 void main() {
@@ -17,7 +19,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: HomePage()
+      home: Method2ApiCallWithFutureBuilder()
     );
   }
 }
